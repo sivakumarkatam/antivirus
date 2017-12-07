@@ -59,5 +59,7 @@ ft_filter=secure
 ft_delim=<newline>
 ft_start_top=1' > /opt/McAfee/siem/mcafee_siem_collector.conf
 echo "showing /opt/McAfee/siem/mcafee_siem_collector.conf file"
-cat /opt/McAfee/siem/mcafee_siem_collector.conf
+#cat /opt/McAfee/siem/mcafee_siem_collector.conf
+echo "starting siem agent"
 /etc/init.d/mcafee_siem_collector restart
+echo "success"
