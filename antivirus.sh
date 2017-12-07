@@ -63,4 +63,5 @@ echo "showing /opt/McAfee/siem/mcafee_siem_collector.conf file"
 echo "starting siem agent"
 /etc/init.d/mcafee_siem_collector start
 echo "success"
+sleep 2s
 cat /var/log/mcafee/siem_collector.log
