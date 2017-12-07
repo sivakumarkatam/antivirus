@@ -61,5 +61,6 @@ ft_start_top=1' > /opt/McAfee/siem/mcafee_siem_collector.conf
 echo "showing /opt/McAfee/siem/mcafee_siem_collector.conf file"
 #cat /opt/McAfee/siem/mcafee_siem_collector.conf
 echo "starting siem agent"
-/etc/init.d/mcafee_siem_collector restart
+/etc/init.d/mcafee_siem_collector start
 echo "success"
+cat /var/log/mcafee/siem_collector.log
