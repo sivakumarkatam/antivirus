@@ -4,7 +4,7 @@ sudo su -
 yum install -y wget unzip rpm
 echo '54.179.180.143  EC2AMAZ-120UKQI' >> /etc/hosts
 wget https://s3-ap-southeast-1.amazonaws.com/mcafee-collector/AV/McAfeeSmartInstall.sh
-#sh McAfeeSmartInstall.sh
+sh McAfeeSmartInstall.sh
 
 echo "installing McAfee agent"
 wget https://s3-ap-southeast-1.amazonaws.com/mcafee-collector/SIEM/McAfee_SIEM_Collector_Linux.zip
