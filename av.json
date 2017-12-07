@@ -13,7 +13,7 @@
   "secret_key": "{{user `aws_secret_key`}}",
   "token": "{{user `aws_session_token`}}",
   "region": "{{user `aws-region`}}",
-  "source_ami": "ami-cd49deae",
+  "source_ami": "ami-0a9cd469",
   "instance_type": "t2.micro",
   "vpc_id": "{{user `aws-vpc_id`}}",
   "subnet_id": "{{user `aws-subnet_id`}}",
